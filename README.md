@@ -2,7 +2,7 @@
 
 An interactive browser tool for the Digital Circuits course (EE1202, IIT Hyderabad). Enter a truth table for 1 to 5 variables and it produces the Karnaugh map, minimized Sum-of-Products and Product-of-Sums expressions, and a Verilog module with a matching testbench.
 
-**[Try it live](https://rmuk655.github.io/K-Map-Logic-Minimization-Tool-/)**: no install, runs entirely in the browser.
+**[Try it live](https://rmuk655.github.io/K-Map-Logic-Minimization-Tool/)**: no install, runs entirely in the browser.
 
 ```mermaid
 flowchart LR
