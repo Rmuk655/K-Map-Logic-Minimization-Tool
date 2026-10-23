@@ -4,6 +4,10 @@ An interactive browser tool for the Digital Circuits course (EE1202, IIT Hyderab
 
 **[Try it live](https://rmuk655.github.io/K-Map-Logic-Minimization-Tool/)**: no install, runs entirely in the browser.
 
+![K-map minimizer: truth table, Gray-code K-map, minimized SOP and POS, generated Verilog](docs/kmap-demo.png)
+
+Example: f(A,B,C,D) = Σm(0,1,2,5,6,7,8,9,10,14) minimizes to `~B·~C + C·~D + ~A·B·D`.
+
 ```mermaid
 flowchart LR
   A[Truth table<br/>0 / 1 / x] --> B[K-map<br/>Gray-code layout]
